@@ -3,6 +3,7 @@ body {
     background-color: #f0f2f5; /* Light grey for a soft background */
     margin: 0;
     padding: 0;
+     background-image: linear-gradient(135deg, #007bff 50%, #28a745 50%);
 }
 
 .container {
