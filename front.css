@@ -11,20 +11,22 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
     background-image: linear-gradient(135deg, #007bff 50%, #28a745 50%);
     color: #ffffff;
+    margin: 0; /* Remove default margin from body */
 }
 
 /* Container for centering content */
 .container {
     width: 100%;
+    max-width: 600px;
     text-align: center;
     padding: 20px;
 }
 
+/* Content box styling */
 .content {
-    max-width: 600px;
     background-color: rgba(255, 255, 255, 0.1);
     padding: 40px;
     border-radius: 10px;
@@ -32,6 +34,7 @@ body {
     animation: fadeIn 1.5s ease-in-out;
 }
 
+/* Text styling */
 h1 {
     font-size: 40px;
     margin-bottom: 20px;
@@ -46,6 +49,7 @@ p {
     opacity: 0.85;
 }
 
+/* Button styling */
 .start-btn {
     display: inline-block;
     padding: 15px 30px;
